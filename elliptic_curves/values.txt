@@ -1,0 +1,15 @@
+5
+29
+1
+90
+1
+90
+47
+211
+#values are
+# value of x1 1
+# value of y1 90
+# value of x2 1
+# value of y2 90
+# value of a 47
+# prime number 34
