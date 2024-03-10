@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMCOP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="..\css\styles.css">
+  <style>
+    body {
+  font-family: 'GraublauWeb', sans-serif;
+  background-image: url("../assets/bg/bg.jpg");
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: fixed;
+  background-size: cover;
+}
+
+    </style>
+</head>
+
+<body>
+
+  <div class="header4">
+    <h1>Amrita Cop Connect</h1>
+
+    <nav>
+      <ul>
+        <li><a href="..\index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="chatbot.html"><i class="fas fa-comment"></i>Connect without login</a></li>
+      </ul>
+    </nav>
+
+</div>
+  <div class="form">
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn"></div>
+
+        <button type="button" class="toggle-btn" onclick="login()">Login</button>
+        <button type="button" class="toggle-btn" onclick="CCIO_login()">CCIO Login</button>
+      </div>
+      <form id="login-form" class="input-group">
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span>Remember Password</span>
+        <button type="submit" class="submit-btn">Log in</button>
+      </form>
+
+      <form id="CCIO-login-form" class="input-group">
+        <input type="text" class="input-field" placeholder="CCIO Id" required>
+        <input type="text" class="input-field" placeholder="Enter CCIO Password" required>
+        <input type="checkbox" class="check-box">
+        <!--Apply for CCIO Id-->
+        <span>Remember Password</span><br><br>
+        <button type="submit" class="submit-btn">CCIO Log in</button>
+      </form>
+
+    </div>
+  </div>
+   <div class="footer4">
+    <p>&copy; 2024 Amrita Cop Connect. All rights reserved.</p>
+  </div>
+  <script src="..\js\signin.js"></script>
+
+</body>
+</html>
