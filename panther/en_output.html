@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Box Example</title>
+    <link href="style.css" rel="stylesheet" type="stylcss" />
+    <style>
+
+        textarea {
+            width: 300px;
+            height: 150px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="frame_encryption">
+
+    <h2>Output Box Example</h2>
+
+    <!-- The textarea element for output with readonly attribute -->
+    <textarea id="outputBox" readonly></textarea>
+
+    <!-- Optional: Add a button to demonstrate updating the output -->
+    <button onclick="updateOutput()">Update Output</button>
+
+    <script>
+        // Optional: JavaScript function to update the output
+        function updateOutput() {
+            var outputText = "This is some example output.";
+            document.getElementById("outputBox").value = outputText;
+        }
+    </script>
+
+</body>
+</html>
